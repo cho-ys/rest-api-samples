@@ -61,15 +61,15 @@ The password you want to be login with
 1. Login into MicroStrategy web with your credential
 2. Choose Project "MicroStrategy tutorial"
 ```
-![alt text](https://github.microstrategy.com/neelpatel/PromptGradleWorkFlow/blob/master/ScreenShot/Project_Name.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/tree/master/java-rest/java-rest-prompts/ScreenShot/Project_Name.png)
 ```
 3. Right Click on Create --> New Prompt --> Attribute Element List
 ```
-![alt text](https://github.microstrategy.com/neelpatel/PromptGradleWorkFlow/blob/master/ScreenShot/Prompt.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/tree/master/java-rest/java-rest-prompts/ScreenShot/Prompt.png)
 ```
 4. Choose from Attribute --> Customers --> Customer Country from the list
 ```
-![alt text](https://github.microstrategy.com/neelpatel/PromptGradleWorkFlow/blob/master/ScreenShot/ElementPrompt.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/tree/master/java-rest/java-rest-prompts/ScreenShot/ElementPrompt.png)
 ```
 5. Save it as "Element of Customer Country" under Shared Report
 6. Right Click on Report --> Blank Report
@@ -82,10 +82,10 @@ The password you want to be login with
 10. Save this Report as Attribute Element Prompt Report
 11. Right click on this report--> Properties --> Note Down ID
 ```
-![alt text](https://github.microstrategy.com/neelpatel/PromptGradleWorkFlow/blob/master/ScreenShot/ReportId.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/tree/master/java-rest/java-rest-prompts/ScreenShot/ReportId.png)
 
 You may try to run this report for better understanding. 
-![alt text](https://github.microstrategy.com/neelpatel/PromptGradleWorkFlow/blob/master/ScreenShot/Run%20Prompt.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/tree/master/java-rest/java-rest-prompts/ScreenShot/Run%20Prompt.png)
 
 For more information about prompt you may visit [this](https://lw.microstrategy.com/msdz/MSDL/GARelease_Current/docs/projects/RESTSDK/Content/topics/REST_API/REST_API_Workflow_Prompts.htm).
 
