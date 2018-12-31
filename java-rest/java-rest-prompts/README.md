@@ -61,7 +61,7 @@ The password you want to be login with
 1. Login into MicroStrategy web with your credential
 2. Choose Project "MicroStrategy tutorial"
 ```
-![alt text](https://github.com/MicroStrategy/rest-api-samples/tree/master/java-rest/java-rest-prompts/ScreenShot/Project_Name.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/master/java-rest/java-rest-prompts/ScreenShot/Project_Name.png)
 ```
 3. Right Click on Create --> New Prompt --> Attribute Element List
 ```
