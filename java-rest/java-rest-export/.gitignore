@@ -1,0 +1,31 @@
+
+logs
+
+.tmp
+.filecache
+.cache
+.build
+.gradle
+.idea
+.lock
+overrides.*
+production/classes/
+.class
+# OS generated files #
+######################
+**/.DS_Store
+**/.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+# vim
+.swp
+
+jmeter.log
+/build/
+/.settings/
+.project
+**/lost+found/
