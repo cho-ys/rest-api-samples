@@ -1,13 +1,10 @@
-package com.microstrategy;
+package com.microstrategy.samples;
 
 import org.json.simple.JSONObject;
 import org.json.simple.parser.JSONParser;
 import java.io.*;
 import java.net.*;
 import java.util.Base64;
-import java.util.Iterator;
-import java.util.List;
-import java.util.Map;
 
 /**
  * @author patelNeel

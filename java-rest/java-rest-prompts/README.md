@@ -1,14 +1,12 @@
-## Project Name:
-MicroStrategy Prompt Workflow
+## MicroStrategy Prompt Workflow
 
-## Project Description:
+## Description:
 This App is a sample demo app to show the users how to use MicroStrategy REST APIs to execute prompt dossier/report and export pdf of dossier or documents. 
 
 A list of REST APIs were used in the demo. They were used to authenticating, creating new instance of respective dossier, apply prompt on dossier then exporting to PDF. 
 
-## APIs used/demonstrated:
+## REST APIs Used:
 
-The REST APIs used in this demo are:
 #### POST /auth/login 
 Creating a MicroStrategy session given credentials and authentication mode. An authToken will be returned for latter operations.
 In the demo, this API was used to create a configuration session.
@@ -27,7 +25,7 @@ In the demo, this API was used to answer the given prompt. Here, we are used "US
 
 #### POST /documents/{id}/instances/{instanceId}/pdf
 Export a specific document instance to a PDF file.
-In the project, this API was used to export dossier in pdf to form of octet-stream,base64 data. User has to convert base64 data into string using any library. Here, Base64 is used which part of package java.util default library.  It is used to decode to base64 to pdf string and then download in form of PDF into **user's Download folder** under the name of Microstrayegy.pdf
+In the project, this API was used to export dossier in pdf to form of octet-stream,base64 data. User has to convert base64 data into string using any library. Here, Base64 is used which part of package java.util default library.  It is used to decode to base64 to pdf string and then download in form of PDF into **user's Download folder** under the name of MicroStrayegy.pdf
 
 
 ## How to customize this App 
@@ -96,7 +94,7 @@ For more information about prompt you may visit [this](https://lw.microstrategy.
 
 OR
 
-You can use Microstrategy REST API `PUT /admin/restServerSettings/security` and Set `"allowAllOrigins": true`
+You can use MicroStrategy REST API `PUT /admin/restServerSettings/security` and Set `"allowAllOrigins": true`
 Ex:
 
 ```json

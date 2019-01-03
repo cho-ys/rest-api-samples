@@ -1,4 +1,4 @@
-package com.microstrategy;
+package com.microstrategy.samples;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -27,9 +27,6 @@ public class PropertiesUtil {
     private String baseUrl;
     private String authToken;
     private String instanceId;
-    private String key;
-    private String type;
-
 
     public String getBaseUrl() {
         return baseUrl;
@@ -95,22 +92,6 @@ public class PropertiesUtil {
         this.instanceId = instanceId;
     }
 
-    public String getKey() {
-        return key;
-    }
-
-    public void setKey(String key) {
-        this.key = key;
-    }
-
-    public String getType() {
-        return type;
-    }
-
-    public void setType(String type) {
-        this.type = type;
-    }
-
     public void getConfigProperty(){
         Properties properties = new Properties();
         try(InputStream input = new FileInputStream("config.properties");){
@@ -120,8 +101,6 @@ public class PropertiesUtil {
             setLoginMode(properties.getProperty("LOGINMODE"));
             setProjectId(properties.getProperty("PROJECTID"));
             setDossierId(properties.getProperty("DOSSIERID"));
-            setKey(properties.getProperty("KEY"));
-            setType(properties.getProperty("TYPE"));
             if (!(properties.getProperty("PASSWORD").trim().equals(""))) {
                 setPassword(properties.getProperty("PASSWORD"));
             }
