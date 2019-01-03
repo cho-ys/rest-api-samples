@@ -1,12 +1,12 @@
-## Java Project Name:
-MicroStrategy Export PDF workflow
+## MicroStrategy Export PDF workflow
 
-## Project Decription:
+## Description:
 This project is a sample standalone program to show the users how to use MicroStrategy REST APIs to export pdf of dossier or documents. 
 
 A list of REST APIs were used in the project. They were used to authenticating, creating new instance of respective dossier, then exporting to PDF. 
 
-The REST APIs used in this demo are:
+## REST APIs used
+
 #### POST /auth/login 
 Creating a MicroStrategy session given credentials and authentication mode. An authToken will be returned for latter operations.
 In the project, this API was used to create a configuration session.
@@ -22,7 +22,7 @@ In the project, this API was used to export dossier in pdf to form of octet-stre
 
 ## How to customize this Project 
 List of variables are present in **config.properties** file for this demo. You can be customized and configured for your own environment (username, password, project, dossier etc).
-To see response header and body parameter which get from Microstrategy rest api, set boolean value true in ApiOperation.java class for showReponseHeader and showReponseBody  
+To see response header and body parameter which get from MicroStrategy rest api, set boolean value true in ApiOperation.java class for showReponseHeader and showReponseBody  
 
 ```
 BASEURL
@@ -51,7 +51,7 @@ Login through Guest mode 8.
 
 OR
 
-You can use Microstrategy REST API `PUT /admin/restServerSettings/security` and Set `"allowAllOrigins": true`
+You can use MicroStrategy REST API `PUT /admin/restServerSettings/security` and Set `"allowAllOrigins": true`
 Ex:
 
 ```json

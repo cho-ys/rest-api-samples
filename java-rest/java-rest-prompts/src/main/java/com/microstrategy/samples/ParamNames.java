@@ -1,4 +1,4 @@
-package com.microstrategy;
+package com.microstrategy.samples;
 
 /**
  * @author patelNeel
@@ -38,4 +38,18 @@ public class ParamNames {
     public static final String LOGINMODE = "loginmode";
 
     public static final String PERSISTVIEWSTATE = "persistViewState";
+
+    public static final String KEY = "key";
+
+    public static final String TYPE = "type";
+
+    public static final String ANSWERS = "answers";
+
+    public static final String NAME = "name";
+
+    public static final String PROMPTS = "prompts";
+
+    public static final String  INSTANCEID= "instanceId";
+
+    public static final String  ID = "id";
 }

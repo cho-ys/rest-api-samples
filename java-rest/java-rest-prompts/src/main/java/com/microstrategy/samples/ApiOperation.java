@@ -1,4 +1,4 @@
-package com.microstrategy;
+package com.microstrategy.samples;
 
 import org.json.simple.JSONArray;
 import org.json.simple.JSONObject;
