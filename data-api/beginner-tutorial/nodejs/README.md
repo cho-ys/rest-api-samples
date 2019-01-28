@@ -1,7 +1,7 @@
 
 ## References   
 ### [Tutorial overview](../README.md)  
-### [Curl implementation](../curl/tutorial-curl-implementation.md)    
+### [Curl implementation](../curl/README.md)    
 ### [Java implementation](../java/README.md)  
 
 # NodeJs Implementation

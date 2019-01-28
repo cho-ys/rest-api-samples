@@ -19,11 +19,11 @@ We will use the sample cube **“Intelligent Cube - Drilling outside the cube is
 * **Demo REST Server swagger UI**:  [**https://demo.microstrategy.com/MicroStrategyLibrary2/api-docs/index.html?**](https://demo.microstrategy.com/MicroStrategyLibrary2/api-docs/index.html) 
 
 ## Different code implementation(Getting Started)   
-### [Curl implementation](curl/tutorial-curl-implementation.md)   
+### [Curl implementation](curl/README.md)   
 ### [Java code implementation](java/README.md)    
 ### [NodeJs implementation](nodejs/README.md)  
 
 ## Tree raw cube/report json data Transformation
 Since raw json data from response of the endpoints _POST /cubes/{cubeId}/instances, POST /reports/{reportId}/instances,  GET /cubes/{cubeId}/instances/{instanceId} and GET /reports/{reportId}/instances/{instanceId}_ are tree json, it is not intuitionistic to show, so we provide tree data transformation code with Java and Javascript implementations, code links as below：  
 * [Javascript transformation code](../grid-data-transformer/js/gridDataTransformer.js)   
-* [Java transformation code](../gridDataTransformer/java/src/main/java/com/microstrategy/samples/JsonTreeDataTransformation)  
+* [Java transformation code](../grid-data-transformer/java/src/main/java/com/microstrategy/samples/JsonTreeDataTransformation.java)  
