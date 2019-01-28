@@ -1,0 +1,19 @@
+{
+    "metricLimits": {
+        "4C051DB611D3E877C000B3B2D86C964F": {
+            "operator": "Greater",
+            "operands": [
+                {
+                    "type": "metric",
+                    "id": "4C051DB611D3E877C000B3B2D86C964F",
+                    "name": "Profit"
+                },
+                {
+                    "type": "constant",
+                    "value": "160000",
+                    "dataType": "Real"
+                }
+            ]
+        }
+    }
+}

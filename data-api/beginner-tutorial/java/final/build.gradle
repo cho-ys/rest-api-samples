@@ -1,0 +1,25 @@
+plugins {
+    id 'java'
+}
+
+group 'data-api-tutorial'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.12'
+
+    compile group: 'com.fasterxml.jackson.core', name:'jackson-databind', version: '2.9.6'
+
+    // https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-jersey
+    compile group: 'org.springframework.boot', name: 'spring-boot-starter-jersey', version: '2.1.0.RELEASE'
+
+
+
+
+}
