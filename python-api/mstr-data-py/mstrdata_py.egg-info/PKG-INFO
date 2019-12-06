@@ -1,0 +1,10 @@
+Metadata-Version: 1.0
+Name: mstrdata-py
+Version: 11.2.0.001
+Summary: Python interface for the MicroStrategy REST API
+Home-page: https://github.com/MicroStrategy/mstrio-py
+Author: Benny Cheng, Scott Rigney, Peter Ott, Sergio Sainz Palacios, Michal Ciesielski, Zofia Rogala, Ignacy Hologa, Piotr Czyz
+Author-email: bcheng@microstrategy.com, srigney@microstrategy.com, ssainz@microstrategy.com, mciesielski@microstrategy.com,zrogala@microstrategy.com, ihologa@microstrategy.com, pczyz@microstrategy.com
+License: Apache License 2.0
+Description: UNKNOWN
+Platform: UNKNOWN
