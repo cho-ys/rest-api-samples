@@ -1,6 +1,0 @@
-cookbook 'timezone-ii'
-cookbook 'ntp'
-
-cookbook_from_git 'chef_commons', '1.1.20'
-cookbook_from_git 'dev_commons', '1.0.5'
-cookbook_from_git 'yum_mirror', '1.0.11'

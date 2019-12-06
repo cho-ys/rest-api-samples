@@ -1,6 +1,0 @@
-{
-  "dependencies": {
-    "i18next": "^17.0.4",
-    "line-clamp": "^1.0.0"
-  }
-}
