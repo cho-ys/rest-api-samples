@@ -1,0 +1,6 @@
+requests
+pandas
+tqdm
+jupyter_contrib_nbextensions
+ipywidgets
+packaging
