@@ -1,3 +1,21 @@
+## Table of Contents
+- [Data API v2 Pandas Guide](#data-api-v2-pandas-guide)
+  * [JSON Structure](#json-structure)
+    + [Definition](#definition)
+      - [Structure](#structure)
+      - [rows](#rows)
+      - [columns](#columns)
+    + [Data](#data)
+      - [Structure](#structure-1)
+  * [Preparing Data for use with Pandas DataFrame](#preparing-data-for-use-with-pandas-dataframe)
+    + [Parse](#parse)
+      - [Handling Large Datasets](#handling-large-datasets)
+      - [parse_rows() & parse_columns()](#parse-rows-----parse-columns--)
+      - [map_index()](#map-index--)
+  * [Converting to DataFrame](#converting-to-dataframe)
+  * [Usage](#usage)
+  * [Demo](#demo)
+
 # Data API v2 Pandas Guide
 This repo aims to demonstrate how to consume version 2 of the Data API for reports and cubes and create a Pandas DataFrame from the JSON object. The main parser is found in mstrdata/utils/dfcreator.py. The wrapper that utilizes the parser is found in mstrdata/microstrategy.py. 
 
