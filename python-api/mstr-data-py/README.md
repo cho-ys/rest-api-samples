@@ -1232,7 +1232,7 @@ Run the notebook
 Navigate to test/example.ipynb in jupyter and you'll find examples of how the parser is utilized. We have built the parser to work with [mstrio-py](https://github.com/MicroStrategy/mstrio-py) and its implementation for local python usage of MicroStrategy's report and cube objects. 
 
 
-You can also view the demo notebook [here on github](/test)
+You can also view the demo notebook [here on github](/python-api/mstr-data-py/test)
 
 
 
