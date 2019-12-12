@@ -80,36 +80,36 @@ This client code demonstation apply on non cross-tab, cross-tab and multi-form t
 
 
 
-![alt text](https://github.microstrategy.com/neelpatel/DataAPI/blob/master/ScreenShot/Report.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/parseV2Report/data-api-v2/ScreenShot/Report.png)
 
 
 
 
 ### Exported into Excelsheet:
 
-![alt text](https://github.microstrategy.com/neelpatel/DataAPI/blob/master/ScreenShot/Excelsheet.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/parseV2Report/data-api-v2/ScreenShot/Excelsheet.png)
 
 
 ## Cross tab report
 
 ### Report Layout:
 
-![alt text](https://github.microstrategy.com/neelpatel/DataAPI/blob/master/ScreenShot/CrosstabReport.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/parseV2Report/data-api-v2/ScreenShot/CrosstabReport.png)
 
 ### Exported into Excelsheet:
 
-![alt text](https://github.microstrategy.com/neelpatel/DataAPI/blob/master/ScreenShot/CrosstabExcel.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/parseV2Report/data-api-v2/ScreenShot/CrosstabExcel.png)
 
 
 ## Multi-form template Report
 
 ### Report Layout:
 
-![alt text](https://github.microstrategy.com/neelpatel/DataAPI/blob/master/ScreenShot/MultiformReport.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/parseV2Report/data-api-v2/ScreenShot/MultiformReport.png)
 
 ### Exported into Excelsheet:
 
-![alt text](https://github.microstrategy.com/neelpatel/DataAPI/blob/master/ScreenShot/MultiformExcel.png)
+![alt text](https://github.com/MicroStrategy/rest-api-samples/blob/parseV2Report/data-api-v2/ScreenShot/MultiformExcel.png)
 
 
 
