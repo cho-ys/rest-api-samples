@@ -1,7 +1,9 @@
 package com.microstrategy;
 
-import org.apache.log4j.Logger;
 
+
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
@@ -16,7 +18,7 @@ import java.util.Properties;
  */
 public class PropertiesUtil {
 
-    private final static Logger logger = Logger.getLogger(ApiOperation.class);
+    private final static Logger logger = LogManager.getLogger(ApiOperation.class);
 
     private String userName;
     private String password;

@@ -16,9 +16,8 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
-
-
-import org.apache.log4j.Logger;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.apache.poi.ss.usermodel.Cell;
 import org.apache.poi.ss.usermodel.Row;
 import org.apache.poi.ss.usermodel.Sheet;
@@ -34,7 +33,7 @@ import org.json.JSONObject;
 public class ApiOperation {
 
 
-    private final static Logger logger = Logger.getLogger(ApiOperation.class);
+    private final static Logger logger = LogManager.getLogger(ApiOperation.class);
     static PropertiesUtil propertiesUtil;
     static {
         propertiesUtil = new PropertiesUtil();

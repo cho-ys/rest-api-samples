@@ -1,0 +1,8 @@
+com/microstrategy/ParamNames.java
+ com.microstrategy.ParamNames
+com/microstrategy/Main.java
+ com.microstrategy.Main
+com/microstrategy/ApiOperation.java
+ com.microstrategy.ApiOperation
+com/microstrategy/PropertiesUtil.java
+ com.microstrategy.PropertiesUtil
